@@ -18,7 +18,7 @@ public class CountryDataServiceJdbcImpl {
         this.countryDataRepositoryJdbc = repository;
     }
 
-    private static void copyFormToEntity(CountryForm form, CountryEntityJdbc student){
+    private static void copyFormToEntity(CountryForm form, CountryEntityJdbc country){
         //country.setId(form.getId());
         country.setName(form.getName());
         country.setContinent(form.getContinent());

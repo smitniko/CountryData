@@ -5,7 +5,7 @@ import sheridan.smitniko.midterm.model.CountryForm;
 import java.util.List;
 
 
-public class CountryDataService {
+public interface CountryDataService {
 
     void insertCountryForm(CountryForm form);
 
